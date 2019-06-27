@@ -1,0 +1,25 @@
+#spring.application.name=config
+#eureka.client.service-url.defaultZone=http://localhost:8761/eureka-server/server/
+#spring.cloud.config.server.git.uri=https://gitee.com/null_983_9509/config-repo
+#spring.cloud.config.server.git.username=18826245507@163.com
+#spring.cloud.config.server.git.password=lihongchao123
+#spring.cloud.config.server.git.basedir=f://demo
+#server.port=9000
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          #
+          uri: https://gitee.com/null_983_9509/config-repo
+          username: 18826245507@163.com
+          password: lihongchao123
+#需要注册到服务eureka上时 ，需添加
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka-server/eureka/
+server:
+  port: 8888
