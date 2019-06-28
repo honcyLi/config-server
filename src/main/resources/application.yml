@@ -14,8 +14,8 @@ spring:
         git:
           #
           uri: https://gitee.com/null_983_9509/config-repo
-          username: 18826245507@163.com
-          password: lihongchao123
+          username: 
+          password: 
 #需要注册到服务eureka上时 ，需添加
 # eureka:
 #   client:
